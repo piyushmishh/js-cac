@@ -42,6 +42,44 @@ console.log(typeof myObj);
 //*** */
 
 
+//************************************************************ */
+
+// memory - stack and heap 
+// stack(primitive) , heap(non primitive) 
+
+//stack a copy is passed
+//heap the reference to the original locn is passed
+//thus changes is made in original value(heap)
+
+let myytname="carryminati"
+
+let anothername=myytname
+anothername="bella"
+
+console.log(myytname);//old value
+console.log(anothername);//changed value
+
+let userone={
+    email:"user@gmail",
+    upi:"user@ybl"
+}
+
+let user2=userone
+user2.email="user@yahoo"
+
+console.log(userone.email);
+console.log(user2.email);//both contains same value
+
+
+
+
+
+
+
+
+
+
+
 
 
 
