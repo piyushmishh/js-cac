@@ -2,7 +2,7 @@
 
 // primitive -7 types all call by value means a copy is passed not the actual data locn
 
-  // string , number boolean ,null(ekdm khali) , undefined,Symbol ,bigint
+  // string , number , boolean ,null(ekdm khali) , undefined,Symbol ,bigint
 
 // reference type(non primitive)
 
