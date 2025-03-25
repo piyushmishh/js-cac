@@ -41,3 +41,28 @@ const users=[
 
 console.log(Object.keys(tinderUser));//array of keys
 console.log(Object.values(tinderUser));
+
+const course={
+    coursename:"js",
+    price:"90",
+    instructor:"piyush"
+}
+
+//destructuring of object
+// course.instructor->way to acces value
+const {instructor:inst}=course//another way
+console.log(inst);
+
+//json
+// {
+//     "name":"piyush",
+//     "coursename":"js in eng",
+//     "price":"free"
+// }
+
+//or
+// [
+//     {},  //json in array format
+//     {},
+//     {}
+// ]
