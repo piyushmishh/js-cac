@@ -10,4 +10,4 @@
     //simple iife
     console.log(`db connected 2 ${name}`);//using arrow function
     
-})("piyush")
+})("piyush")//remove name and "piyush" passed as parameter to form simplle iife
